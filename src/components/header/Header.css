@@ -1,0 +1,43 @@
+.headerBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  background-color: aliceblue;
+  justify-content: space-evenly;
+  top: 0;
+  position: sticky;
+  cursor: pointer;
+  height: 50px;
+  z-index: 100;
+}
+
+.headerBox__options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerBox__options > p {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.headerBox__basket {
+  display: flex;
+  align-items: center;
+}
+
+.headerBox__basket__counter {
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.headerBox__Links {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px; 
+}

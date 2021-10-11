@@ -1,0 +1,25 @@
+.checkout {
+  background-color: white;
+  top: 0;
+  display: flex;
+}
+
+.checkout__left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  background-color: white;
+  margin-right: 100px;
+  padding: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.checkout__right {
+  background-color: white;
+  display: flex;
+  flex: 0.3;
+  margin-right: 100px;
+  align-items: top;
+  justify-content: center;
+}
